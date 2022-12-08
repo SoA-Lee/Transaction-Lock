@@ -94,8 +94,8 @@ select stock0_.id as id1_0_, stock0_.product_id as product_2_0_, stock0_.quantit
 
 
 ### 실무에서는 ?
-- 실패 시 재시도가 필요하지 않은 lock 은 lettuce 활용
-- 실패 시 재시도가 필요한 경우에는 redisson 를 활용
+- **실패 시 재시도가 필요하지 않은 lock 은 lettuce 활용**
+- **실패 시 재시도가 필요한 경우에는 redisson 를 활용**
 
 
 ## 추가 사항
